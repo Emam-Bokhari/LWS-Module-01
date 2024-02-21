@@ -1,12 +1,10 @@
-import { Fragment } from "react";
-import Gallery, { Profile as Image } from "./Module-1.5/Gallery"
-// import {Profile} from "./Module-1.5/Gallery"
+import { Fragment } from "react"
+import Test from "./Module-1.6/Test"
 
 export default function App() {
   return (
     <Fragment>
-      <Gallery />
-      <Image />
+      <Test/>
     </Fragment>
   )
 }
