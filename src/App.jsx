@@ -1,10 +1,10 @@
 import { Fragment } from "react"
-import Test from "./Module-1.6/Test"
+import ToDoList from "./Module-1.7/ToDoList"
 
 export default function App() {
   return (
     <Fragment>
-      <Test/>
+      <ToDoList />
     </Fragment>
   )
 }
