@@ -1,10 +1,10 @@
 import { Fragment } from "react"
-import CssStyle from "./Module-1.7/CssStyle"
+import MoreCssStyle from "./Module-1.7/MoreCssStyle"
 
 export default function App() {
   return (
     <Fragment>
-      <CssStyle />
+      <MoreCssStyle />
     </Fragment>
   )
 }
