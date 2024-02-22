@@ -1,10 +1,10 @@
 import { Fragment } from "react"
-import ToDoList from "./Module-1.7/ToDoList"
+import CssStyle from "./Module-1.7/CssStyle"
 
 export default function App() {
   return (
     <Fragment>
-      <ToDoList />
+      <CssStyle />
     </Fragment>
   )
 }
