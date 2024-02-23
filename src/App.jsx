@@ -1,10 +1,14 @@
 import { Fragment } from "react"
-import PropsDefaultValue from "./Module-1.8/PropsDefaultValue"
+import Profile from "./Module-1.8/Children/Profile"
+import Avatar from "./Module-1.8/Children/Avatar"
 
 export default function App() {
+
   return (
     <Fragment>
-      <PropsDefaultValue person={{ name: "Gorgiea Z. Zebila", location: "USA" }} image={{img:"https://placehold.co/300"}}  />
+      <Profile>
+        <Avatar />
+      </Profile>
     </Fragment>
   )
 }
