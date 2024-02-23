@@ -1,10 +1,10 @@
 import { Fragment } from "react"
-import Avatar from "./Module-1.8/Avatar"
+import PropsDefaultValue from "./Module-1.8/PropsDefaultValue"
 
 export default function App() {
   return (
     <Fragment>
-      <Avatar person={{name:"Gorgiea Z. Zebila",location:"USA"}} image={"https://placehold.co/300"} />
+      <PropsDefaultValue person={{ name: "Gorgiea Z. Zebila", location: "USA" }} image={{img:"https://placehold.co/300"}}  />
     </Fragment>
   )
 }
