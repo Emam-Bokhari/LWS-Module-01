@@ -1,10 +1,10 @@
 import { Fragment } from "react"
-import ConditionalCss from "./Module-1.7/ConditionalCss"
+import Avatar from "./Module-1.8/Avatar"
 
 export default function App() {
   return (
     <Fragment>
-      <ConditionalCss />
+      <Avatar person={{name:"Gorgiea Z. Zebila",location:"USA"}} image={"https://placehold.co/300"} />
     </Fragment>
   )
 }
