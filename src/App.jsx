@@ -1,11 +1,11 @@
 import { Fragment } from "react"
-import ConditionalRendering from "./Module-1.9/ConditionalRendering"
+import Logical from "./Module-1.9/Logical"
 
 export default function App() {
 
   return (
     <Fragment>
-      <ConditionalRendering />
+      <Logical />
     </Fragment>
   )
 }
