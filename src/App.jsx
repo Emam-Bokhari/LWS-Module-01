@@ -1,11 +1,11 @@
 import { Fragment } from "react"
-import Logical from "./Module-1.9/Logical"
+import ComplexConditionSolve from "./Module-1.9/ComplexConditionSolve"
 
 export default function App() {
 
   return (
     <Fragment>
-      <Logical />
+      <ComplexConditionSolve />
     </Fragment>
   )
 }
