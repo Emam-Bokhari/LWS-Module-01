@@ -1,11 +1,11 @@
 import { Fragment } from "react"
-import AddTag from "./Module-1.9/AddTag"
+import Filter from "./Module-1.10/Filter"
 
 export default function App() {
 
   return (
     <Fragment>
-      <AddTag />
+      <Filter />
     </Fragment>
   )
 }
