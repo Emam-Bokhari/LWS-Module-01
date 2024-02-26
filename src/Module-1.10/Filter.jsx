@@ -15,18 +15,21 @@ export default function Filter() {
         name: 'Mohammad Abdus Salam',
         profession: 'physicist',
     }, {
+        id: 3,
         name: 'Percy Lavon Julian',
         profession: 'chemist',
     }, {
+        id: 4,
         name: 'Subrahmanyan Chandrasekhar',
         profession: 'astrophysicist',
     }];
 
-    const chemistry = people.filter(person => person.profession === "chemist")
+    const chemistry = people.filter(chemist => chemist.profession === "chemist")
 
-    const itemList=chemistry.map(chemist=>(
-        <li>{chemist.name}</li>
+    const itemList = chemistry.map(person => (
+        <li key={person.id}>{person.name}</li>
     ))
+
 
 
     return (
