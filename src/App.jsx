@@ -1,11 +1,11 @@
 import { Fragment } from "react"
-import Filter from "./Module-1.10/Filter"
+import TeaSet from "./Module-1.11/TeaSet"
 
 export default function App() {
 
   return (
     <Fragment>
-      <Filter />
+      <TeaSet />
     </Fragment>
   )
 }
