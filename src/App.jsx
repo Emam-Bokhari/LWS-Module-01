@@ -1,11 +1,11 @@
 import { Fragment } from "react"
-import TeaSet from "./Module-1.11/TeaSet"
+import SolveImpure from "./Module-1.11/SolveImpure"
 
 export default function App() {
 
   return (
     <Fragment>
-      <TeaSet />
+      <SolveImpure />
     </Fragment>
   )
 }
