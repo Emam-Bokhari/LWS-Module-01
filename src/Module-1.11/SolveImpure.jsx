@@ -19,4 +19,4 @@ export default function SolveImpure() {
             <Cup guest={3} />
         </Fragment>
     )
-}
+} 

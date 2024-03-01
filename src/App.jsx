@@ -1,11 +1,11 @@
 import { Fragment } from "react"
-import SolveImpure from "./Module-1.11/SolveImpure"
+import Gallery from "./Revise/Module-1.4/Gallery"
 
 export default function App() {
 
   return (
     <Fragment>
-      <SolveImpure />
+      <Gallery />
     </Fragment>
   )
 }
