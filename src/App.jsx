@@ -1,6 +1,5 @@
 import { Fragment } from "react"
-import Gallery from "./Revise/Module-1.4/Gallery"
-
+import Gallery from "./Revise/Module-1.5/Gallery"
 export default function App() {
 
   return (
