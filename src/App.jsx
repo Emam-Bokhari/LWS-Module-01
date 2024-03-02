@@ -1,10 +1,10 @@
 import { Fragment } from "react"
-import MoreCssStyle from "./Revise/Module-1.7/MoreCssStyle"
+import ConditionalCss from "./Revise/Module-1.7/ConditionalCss"
 export default function App() {
 
   return (
     <Fragment>
-      <MoreCssStyle />
+      <ConditionalCss />
     </Fragment>
   )
 }
