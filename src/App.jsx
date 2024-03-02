@@ -1,10 +1,10 @@
 import { Fragment } from "react"
-import TodoList from "./Revise/Module-1.7/TodoList"
+import CssStyle from "./Revise/Module-1.7/CssStyle"
 export default function App() {
 
   return (
     <Fragment>
-      <TodoList />
+      <CssStyle />
     </Fragment>
   )
 }
