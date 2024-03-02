@@ -1,10 +1,10 @@
 import { Fragment } from "react"
-import Gallery from "./Revise/Module-1.5/Gallery"
+import TodoList from "./Revise/Module-1.7/TodoList"
 export default function App() {
 
   return (
     <Fragment>
-      <Gallery />
+      <TodoList />
     </Fragment>
   )
 }
